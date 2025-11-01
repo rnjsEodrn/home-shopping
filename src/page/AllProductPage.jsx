@@ -13,7 +13,7 @@ const AllProductPage = ({login, setLogin}) => {
 
   const getProducts = async () => {
     let searchQuery = query.get('title') || "";
-    const url = new URL(`http://localhost:3004/products?title_like=${searchQuery}`);
+    const url = new URL(`https://my-json-server.typicode.com/rnjsEodrn/home-shopping/products?title_like=${searchQuery}`);
     const response = await fetch(url);
     const data = await response.json();
     setProductList(data);

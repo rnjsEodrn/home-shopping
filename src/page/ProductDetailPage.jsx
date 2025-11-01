@@ -9,7 +9,7 @@ const ProductDetailPage = ({login, setLogin}) => {
   const navigate = useNavigate();
 
   const getProductById = async () => {
-    const url = new URL(`http://localhost:3004/products/${params.id}`);
+    const url = new URL(`https://my-json-server.typicode.com/rnjsEodrn/home-shopping/products/${params.id}`);
     const response = await fetch(url);
     const data = await response.json();
     setProduct(data);
