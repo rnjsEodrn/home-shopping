@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import AllProductPage from './page/AllProductPage';
-import ProductDetailPage from './page/ProductDetailPage';
 import LoginPage from './page/LoginPage';
 import PrivateRoute from './Route/PrivateRoute';
 

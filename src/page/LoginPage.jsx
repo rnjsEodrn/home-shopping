@@ -1,4 +1,3 @@
-import React from 'react';
 import Navbar from '../component/Navbar';
 import { Button, Container, Form } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';

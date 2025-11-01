@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import Navbar from '../component/Navbar';
 import { Container, Button, Row, Col, Image } from 'react-bootstrap';
 import { useParams, useNavigate } from 'react-router-dom';
@@ -26,7 +26,7 @@ const ProductDetailPage = ({login, setLogin}) => {
         <Row>
           <Col md="6">
             <div id='img-area'>
-              <Image src={product?.img} fluid></Image>
+              <Image src={product?.img} alt='' fluid></Image>
             </div>
           </Col>
           <Col md="6">
